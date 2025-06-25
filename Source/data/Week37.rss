@@ -1,0 +1,149 @@
+/*
+* ============================================================================
+*  Name     		: Schedule.rss
+*  Part of  		: Schedule
+*  Interface   	:
+*  Description	: This file contains all the resources for
+|									the Schedule.
+*  Version  :
+*
+*  Copyright (c) 2005-2006 Nokia Corporation.
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  Nokia Corporation.
+* ============================================================================
+*/
+
+//  RESOURCE IDENTIFIER
+NAME    WK37 // 4 letter ID
+
+//  INCLUDES
+
+#include <eikon.rh>
+#include <avkon.rsg>
+
+//  RESOURCE DEFINITIONS
+
+RESOURCE RSS_SIGNATURE { }
+
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai1 {buf="Harjoitustyöt L" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai1 {buf="KEMI5190 Kemian aineopintojen harjoitustyöt, luento" ;}
+RESOURCE TBUF r_paikka_maanantai1 {buf="ARC1" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai2 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai3 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai4 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai5 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai6 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai6 {buf="" ;}
+
+	RESOURCE TBUF r_lyhyt_teksti_tiistai1 {buf="Atomifysiikka L" ;}
+	RESOURCE TBUF r_pitka_teksti_tiistai1 {buf="FFYS6001 Atomi- ja molekyylifysiikka, luento" ;}
+	RESOURCE TBUF r_paikka_tiistai1 {buf="XVII" ;}
+	
+	RESOURCE TBUF r_lyhyt_teksti_tiistai2 {buf="Spektrosk. L" ;}
+	RESOURCE TBUF r_pitka_teksti_tiistai2 {buf="KEMI5115 Spektroskopian perusteet, luento" ;}
+	RESOURCE TBUF r_paikka_tiistai2 {buf="CAL2 + MATE5043 Lineaarialgebra @ CAL4" ;}
+
+	RESOURCE TBUF r_lyhyt_teksti_tiistai3 {buf="Orgaaninen L" ;}
+	RESOURCE TBUF r_pitka_teksti_tiistai3 {buf="KEMI5108 orgaaninen kemia, aineopinnot, luento" ;}
+	RESOURCE TBUF r_paikka_tiistai3 {buf="ARC1" ;}
+	
+	RESOURCE TBUF r_lyhyt_teksti_tiistai4 {buf="Kiina" ;}
+	RESOURCE TBUF r_pitka_teksti_tiistai4 {buf="KIKI0001 Kiinan kieli: Alkeiskurssi I" ;}
+	RESOURCE TBUF r_paikka_tiistai4 {buf="Huone K136, Juslenia" ;}
+	
+	RESOURCE TBUF r_lyhyt_teksti_tiistai5 {buf="" ;}
+	RESOURCE TBUF r_pitka_teksti_tiistai5 {buf="" ;}
+	RESOURCE TBUF r_paikka_tiistai5 {buf="" ;}
+	
+	RESOURCE TBUF r_lyhyt_teksti_tiistai6 {buf="" ;}
+	RESOURCE TBUF r_pitka_teksti_tiistai6 {buf="" ;}
+	RESOURCE TBUF r_paikka_tiistai6 {buf="" ;}
+	
+		RESOURCE TBUF r_lyhyt_teksti_keskiviikko1 {buf="Lineaarialg. L" ;}
+		RESOURCE TBUF r_pitka_teksti_keskiviikko1 {buf="MATE5043 Lineaarialgebra, luento" ;}
+		RESOURCE TBUF r_paikka_keskiviikko1 {buf="Luentosali X" ;}
+		
+		RESOURCE TBUF r_lyhyt_teksti_keskiviikko2 {buf="Ruotsi" ;}
+		RESOURCE TBUF r_pitka_teksti_keskiviikko2 {buf="KIRU2322/KIRU2342 Ruotsin kielen integroitu kurssi, luento" ;}
+		RESOURCE TBUF r_paikka_keskiviikko2 {buf="Huone 302, Juslenia" ;}
+		
+		RESOURCE TBUF r_lyhyt_teksti_keskiviikko3 {buf="Atomifysiikka L" ;}
+		RESOURCE TBUF r_pitka_teksti_keskiviikko3 {buf="FFYS6001 Atomi- ja molekyylifysiikka, luento" ;}
+		RESOURCE TBUF r_paikka_keskiviikko3 {buf="XVII" ;}
+		
+		RESOURCE TBUF r_lyhyt_teksti_keskiviikko4 {buf="" ;}
+		RESOURCE TBUF r_pitka_teksti_keskiviikko4 {buf="" ;}
+		RESOURCE TBUF r_paikka_keskiviikko4 {buf="" ;}
+		
+		RESOURCE TBUF r_lyhyt_teksti_keskiviikko5 {buf="" ;}
+		RESOURCE TBUF r_pitka_teksti_keskiviikko5 {buf="" ;}
+		RESOURCE TBUF r_paikka_keskiviikko5 {buf="" ;}
+		
+		RESOURCE TBUF r_lyhyt_teksti_keskiviikko6 {buf="" ;}
+		RESOURCE TBUF r_pitka_teksti_keskiviikko6 {buf="" ;}
+		RESOURCE TBUF r_paikka_keskiviikko6 {buf="" ;}
+		
+		
+			RESOURCE TBUF r_lyhyt_teksti_torstai1 {buf="Lineaarialg D" ;}
+			RESOURCE TBUF r_pitka_teksti_torstai1 {buf="MATE5043 Lineaarialgebra, demot" ;}
+			RESOURCE TBUF r_paikka_torstai1 {buf="XVI, Quantum" ;}
+			
+			RESOURCE TBUF r_lyhyt_teksti_torstai2 {buf="Orgaaninen L" ;}
+			RESOURCE TBUF r_pitka_teksti_torstai2 {buf="KEMI5108 orgaaninen kemia, aineopinnot, luento" ;}
+			RESOURCE TBUF r_paikka_torstai2 {buf="ARC1" ;}
+			
+			RESOURCE TBUF r_lyhyt_teksti_torstai3 {buf="Atomifysiikka D" ;}
+			RESOURCE TBUF r_pitka_teksti_torstai3 {buf="FFYS6001 Atomi- ja molekyylifysiikka, demot (ryhmä 2)" ;}
+			RESOURCE TBUF r_paikka_torstai3 {buf="XVI" ;}
+			
+			RESOURCE TBUF r_lyhyt_teksti_torstai4 {buf="Kiina" ;}
+			RESOURCE TBUF r_pitka_teksti_torstai4 {buf="KIKI0001 Kiinan kieli: Alkeiskurssi I" ;}
+			RESOURCE TBUF r_paikka_torstai4 {buf="Studio 4, Juslenia" ;}
+			
+			RESOURCE TBUF r_lyhyt_teksti_torstai5 {buf="" ;}
+			RESOURCE TBUF r_pitka_teksti_torstai5 {buf="" ;}
+			RESOURCE TBUF r_paikka_torstai5 {buf="" ;}
+			
+			RESOURCE TBUF r_lyhyt_teksti_torstai6 {buf="" ;}
+			RESOURCE TBUF r_pitka_teksti_torstai6 {buf="" ;}
+			RESOURCE TBUF r_paikka_torstai6 {buf="" ;}
+			
+				RESOURCE TBUF r_lyhyt_teksti_perjantai1 {buf="Orgaaninen D" ;}
+				RESOURCE TBUF r_pitka_teksti_perjantai1 {buf="KEMI5108 orgaaninen kemia, aineopinnot, demo" ;}
+				RESOURCE TBUF r_paikka_perjantai1 {buf="" ;}
+				
+				RESOURCE TBUF r_lyhyt_teksti_perjantai2 {buf="Spektrosk. L" ;}
+				RESOURCE TBUF r_pitka_teksti_perjantai2 {buf="KEMI5115 Spektroskopian perusteet, luento" ;}
+				RESOURCE TBUF r_paikka_perjantai2 {buf="CAL4" ;}
+				
+				RESOURCE TBUF r_lyhyt_teksti_perjantai3 {buf="" ;}
+				RESOURCE TBUF r_pitka_teksti_perjantai3 {buf="" ;}
+				RESOURCE TBUF r_paikka_perjantai3 {buf="" ;}
+				
+				RESOURCE TBUF r_lyhyt_teksti_perjantai4 {buf="" ;}
+				RESOURCE TBUF r_pitka_teksti_perjantai4 {buf="" ;}
+				RESOURCE TBUF r_paikka_perjantai4 {buf="" ;}
+				
+				RESOURCE TBUF r_lyhyt_teksti_perjantai5 {buf="" ;}
+				RESOURCE TBUF r_pitka_teksti_perjantai5 {buf="" ;}
+				RESOURCE TBUF r_paikka_perjantai5 {buf="" ;}
+				
+				RESOURCE TBUF r_lyhyt_teksti_perjantai6 {buf="" ;}
+				RESOURCE TBUF r_pitka_teksti_perjantai6 {buf="" ;}
+				RESOURCE TBUF r_paikka_perjantai6 {buf="" ;}

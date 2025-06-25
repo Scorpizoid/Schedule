@@ -1,0 +1,149 @@
+/*
+* ============================================================================
+*  Name     		: Schedule.rss
+*  Part of  		: Schedule
+*  Interface   	:
+*  Description	: This file contains all the resources for
+|									the Schedule.
+*  Version  :
+*
+*  Copyright (c) 2005-2006 Nokia Corporation.
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  Nokia Corporation.
+* ============================================================================
+*/
+
+//  RESOURCE IDENTIFIER
+NAME    WK34 // 4 letter ID
+
+//  INCLUDES
+
+#include <eikon.rh>
+#include <avkon.rsg>
+
+//  RESOURCE DEFINITIONS
+
+RESOURCE RSS_SIGNATURE { }
+
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai1 {buf="Anatis ry" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai1 {buf="Anatis ry:n hallituksen kokous" ;}
+RESOURCE TBUF r_paikka_maanantai1 {buf="Rantakari, Feeniks" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai2 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai3 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai4 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai5 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai6 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai6 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai1 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai1 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai1 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai2 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai3 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai4 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai5 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai6 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai6 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko1 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko1 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko1 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko2 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko3 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko4 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko5 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko6 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko6 {buf="" ;}
+
+
+RESOURCE TBUF r_lyhyt_teksti_torstai1 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai1 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai1 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_torstai2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai2 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_torstai3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai3 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_torstai4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai4 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_torstai5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai5 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_torstai6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai6 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai6 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai1 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai1 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai1 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai2 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai3 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai4 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai5 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai6 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai6 {buf="" ;}

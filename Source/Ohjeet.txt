@@ -1,0 +1,35 @@
+UUSIEN VIIKKOJEN LUOMINEN
+
+Kopioi Weekmalli.cpp ja nime‰ se esim. Week36.cpp
+K‰y lis‰‰m‰ss‰ se MMP-tiedostoon (SOURCE Week36.cpp)
+
+Kopioi Weekmalli.rss ja nime‰ se esim. Week36.rss
+K‰y lis‰‰m‰ss‰ se MMP-tiedostoon (RESOURCE Week36.rss)
+
+T‰yt‰ .cpp- ja .rss-tiedostoihin kalenteritiedot (muista laittaa laatikoiden m‰‰r‰ ja vaihtaa funktion nimi, WeekXXX.rsg ja WeekXXXXX.rsc alempaa)
+
+Muuta RSS-tiedostossa NAME WK36
+
+Avaa ScheduleContainer.cpp ja vaihda MaxWeeks-arvo arvoon 36.
+
+Poista ScheduleContainer.cpp-tiedostosta alimmilta riveilt‰ lis‰tyn funktion nimi (esim. Week36(); )
+
+Aja Build, jotta RSC-tiedosto luodaan
+
+Siirr‰ RSC-tiedosto k‰sin polusta \Epoc32\Data\Week36.RSC polkuun \Epoc32\winscw\c\private\2002AA26\Week36.rsc
+
+Avaa PKG-tiedosto ja lis‰‰ alimmalle riville
+"..\..\..\Epoc32\Data\Week36.RSC" - "c:\private\2002AA26\Week36.rsc"
+
+Aja Build viel‰ GCCE-versiolle
+
+Tee SIS ja asenna puhelimeen.
+
+
+VUODEN VAIHTUESSA
+
+Laita MaxWeeks-arvoksi 53 + viikkonumero, johon asti olet tehnyt viikkoja
+Vaihda ValiViikko-, AloitusViikko- ja LopetusViikko-arvot oikeiksi (kts. TimeAndDate.com)
+Vaihda p‰iv‰t KeyEvents.cpp-tiedoston alimmaisessa osassa oikeiksi (kts. TimeAndDate.com)
+
+En tied‰ enemp‰‰, katso mit‰ tapahtuu ja korjaa!

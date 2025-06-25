@@ -1,0 +1,60 @@
+/*
+* ==============================================================================
+*  Name        : schedule.rls
+*  Part of     : Browser Engine
+*  Interface   : Browser Control API
+*  Description : This is a localisation file for Schedule
+*  Version     :
+*
+*  Copyright (c) 2005-2006 Nokia Corporation.
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  Nokia Corporation.
+* ==============================================================================
+*/
+
+//  LOCALISATION STRINGS
+
+
+
+
+rls_string STRING_tammikuu "Tammikuu"
+rls_string STRING_helmikuu "Helmikuu"
+rls_string STRING_maaliskuu "Maaliskuu"
+rls_string STRING_huhtikuu "Huhtikuu"
+rls_string STRING_toukokuu "Toukokuu"
+rls_string STRING_kesakuu "Kesäkuu"
+rls_string STRING_heinakuu "Heinäkuu"
+rls_string STRING_elokuu "Elokuu"
+rls_string STRING_syyskuu "Syyskuu"
+rls_string STRING_lokakuu "Lokakuu"
+rls_string STRING_marraskuu "Marraskuu"
+rls_string STRING_joulukuu "Joulukuu"
+
+//d:Short caption string for app.
+rls_string STRING_r_brctl_short_caption_string "Lukujärjestys"
+
+//d:Caption string for app.
+rls_string STRING_r_brctl_caption_string "Lukujärjestys"
+
+// rls_string STRING_r_icon_file "z:\\resource\\apps\\Schedule.mbm" 
+
+
+
+//d:Default CBA left button for multipurpose browser display
+rls_string STRING_r_brctl_options_default "Options"
+
+//d:Default CBA right button for multipurpose browser display
+rls_string STRING_r_brctl_cancel_default "Exit"
+
+//d:Menu Item Open
+rls_string STRING_r_brctl_menu_Open "Open"
+
+//d:Menu Item Open
+rls_string STRING_r_brctl_menu_About "About"
+
+//d:Menu Item Exit
+rls_string STRING_r_brctl_menu_exit "Exit"
+
+// End of File
+

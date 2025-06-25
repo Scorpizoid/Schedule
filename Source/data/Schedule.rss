@@ -1,0 +1,278 @@
+/*
+* ============================================================================
+*  Name     		: Schedule.rss
+*  Part of  		: Schedule
+*  Interface   	:
+*  Description	: This file contains all the resources for
+|									the Schedule.
+*  Version  :
+*
+*  Copyright (c) 2005-2006 Nokia Corporation.
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  Nokia Corporation.
+* ============================================================================
+*/
+
+//  RESOURCE IDENTIFIER
+NAME    AWIZ // 4 letter ID
+
+//  INCLUDES
+
+#include <eikon.rh>
+#include "Schedule.hrh"
+#include "Schedule.rls"
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+#include <appinfo.rh>
+
+//  RESOURCE DEFINITIONS
+
+RESOURCE RSS_SIGNATURE { }
+
+RESOURCE TBUF { buf="Lukuj‰rjestys"; }
+
+
+RESOURCE EIK_APP_INFO
+    {
+    hotkeys=r_schedule_hotkeys;
+    menubar=r_schedule_menubar;
+    cba=R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+    }
+
+RESOURCE LOCALISABLE_APP_INFO r_schedule_localisable_app_info
+    {
+    short_caption = STRING_r_brctl_short_caption_string;
+    caption_and_icon =
+    CAPTION_AND_ICON_INFO
+        {
+        caption = STRING_r_brctl_caption_string;
+
+        number_of_icons = 1;
+
+        icon_file = "\\resource\\apps\\Schedule.MBM";
+//        icon_file = "\\resource\\apps\\Schedule_AIF.MIF";
+        };
+    }
+
+RESOURCE TBUF r_eitehtavia {buf="T‰ll‰ viikolla ei ole luentoja, demoja tai mit‰‰n!";}
+
+RESOURCE TBUF r_tammikuu {buf=STRING_tammikuu;}
+RESOURCE TBUF r_helmikuu {buf=STRING_helmikuu;}
+RESOURCE TBUF r_maaliskuu {buf=STRING_maaliskuu;}
+RESOURCE TBUF r_huhtikuu {buf=STRING_huhtikuu;}
+RESOURCE TBUF r_toukokuu {buf=STRING_toukokuu;}
+RESOURCE TBUF r_kesakuu {buf=STRING_kesakuu;}
+RESOURCE TBUF r_heinakuu {buf=STRING_heinakuu;}
+RESOURCE TBUF r_elokuu {buf=STRING_elokuu;}
+RESOURCE TBUF r_syyskuu {buf=STRING_syyskuu;}
+RESOURCE TBUF r_lokakuu {buf=STRING_lokakuu;}
+RESOURCE TBUF r_marraskuu {buf=STRING_marraskuu;}
+RESOURCE TBUF r_joulukuu {buf=STRING_joulukuu;}
+
+//----------------------------------------------------
+//
+//    r_schedule_hotkeys
+//    ?description
+//
+//----------------------------------------------------
+//
+RESOURCE HOTKEYS r_schedule_hotkeys
+    {
+    control=
+        {
+        HOTKEY { command=EAknCmdExit; key='e'; }
+        };
+    }
+
+
+//----------------------------------------------------
+//
+//    r_input_element_buttons
+//    CBA buttons for input element
+//
+//----------------------------------------------------
+RESOURCE CBA r_input_element_buttons
+    {
+	flags = EAknCBAFlagRespondWhenInvisible;
+    buttons =
+                {
+				// left softkey id has to be EAknSoftkeyOptions so that T9 will
+				// be able to replace it with "Spell" when needed
+                CBA_BUTTON {id=EAknSoftkeyOptions; txt=STRING_r_brctl_options_input;},
+                CBA_BUTTON {id=EAknSoftkeyCancel; txt=STRING_r_brctl_cancel_input;}
+                };
+    }
+
+//----------------------------------------------------
+//
+//    r_browser_default_buttons
+//    Default CBA buttons for multipurpose browser display
+//
+//----------------------------------------------------
+//
+RESOURCE CBA r_browser_default_buttons
+    {
+	flags = EAknCBAFlagRespondWhenInvisible;
+    buttons =
+                {
+                CBA_BUTTON {id=EAknSoftkeyOptions; txt=STRING_r_brctl_options_default;},
+                CBA_BUTTON {id=EAknSoftkeyCancel; txt=STRING_r_brctl_cancel_default;}
+                };
+    }
+
+//----------------------------------------------------
+//
+//    r_schedule_menubar
+//    ?description
+//
+//----------------------------------------------------
+//
+RESOURCE MENU_BAR r_schedule_menubar
+    {
+    titles=
+        {
+        MENU_TITLE { menu_pane=r_schedule_menu; txt=STRING_r_brctl_menubar; }
+        };
+    }
+
+//----------------------------------------------------
+//
+//    r_schedule_menu
+//    ?description
+//
+//----------------------------------------------------
+//
+RESOURCE MENU_PANE r_schedule_menu
+    {
+    items=
+        {
+/*        MENU_ITEM { command=EScheduleCmdAppOpen; txt=STRING_r_brctl_menu_Open; },
+        MENU_ITEM { command=EScheduleCmdAppAbout; txt=STRING_r_brctl_menu_About; },*/
+        MENU_ITEM { command=EAknCmdExit; txt=STRING_r_brctl_menu_exit; }
+        };
+    }
+
+
+/*RESOURCE TBUF r_lyhyt_teksti_maanantai1 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai1 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai1 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai2 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai3 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai4 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai5 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_maanantai6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_maanantai6 {buf="" ;}
+RESOURCE TBUF r_paikka_maanantai6 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai1 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai1 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai1 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai2 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai3 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai4 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai5 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_tiistai6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_tiistai6 {buf="" ;}
+RESOURCE TBUF r_paikka_tiistai6 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko1 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko1 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko1 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko2 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko3 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko4 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko5 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_keskiviikko6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_keskiviikko6 {buf="" ;}
+RESOURCE TBUF r_paikka_keskiviikko6 {buf="" ;}
+
+
+RESOURCE TBUF r_lyhyt_teksti_torstai1 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai1 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai1 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_torstai2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai2 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_torstai3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai3 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_torstai4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai4 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_torstai5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai5 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_torstai6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_torstai6 {buf="" ;}
+RESOURCE TBUF r_paikka_torstai6 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai1 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai1 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai1 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai2 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai2 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai2 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai3 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai3 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai3 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai4 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai4 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai4 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai5 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai5 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai5 {buf="" ;}
+
+RESOURCE TBUF r_lyhyt_teksti_perjantai6 {buf="" ;}
+RESOURCE TBUF r_pitka_teksti_perjantai6 {buf="" ;}
+RESOURCE TBUF r_paikka_perjantai6 {buf="" ;}
+*/

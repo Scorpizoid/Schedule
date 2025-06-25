@@ -1,0 +1,38 @@
+;
+; Installation file for Schedule Application
+
+;Languages
+&FI
+
+;Header, old UID 0xA0000181
+#{"Lukujarjestys"},(0x2002AA26),1,0,0
+
+;Localised Vendor name
+%{"Sami Vuori"}
+
+;Unique Vendor name
+:"Sami Vuori"
+
+;Supports S60 v 3.0
+[0x101F7961], 0, 0, 0, {"S60ProductID"}
+
+; Browser Control Sample App 
+"..\..\..\epoc32\release\gcce\urel\Schedule.exe"-"C:\sys\bin\Schedule.exe"
+
+; Browser resources and bitmaps
+"..\..\..\epoc32\data\z\resource\apps\Schedule.rsc"-"C:\Resource\apps\Schedule.rsc"
+"..\..\..\epoc32\data\z\private\10003a3f\import\apps\Schedule_reg.RSC"-"C:\private\10003a3f\import\apps\Schedule_reg.rsc"
+"..\..\..\epoc32\release\winscw\udeb\z\resource\apps\Schedule.mbm"-"C:\Resource\apps\Schedule.mbm"
+
+;required for application to be covered by backup/restore facility 
+;"backup_registration.xml"-"!:\private\A0000181\backup_registration.xml"
+"..\gfx\bg.mbm"-"C:\private\2002AA26\bg.mbm"
+
+; Weeks
+"..\..\..\Epoc32\Data\Week33.RSC" - "c:\private\2002AA26\Week33.rsc"
+"..\..\..\Epoc32\Data\Week34.RSC" - "c:\private\2002AA26\Week34.rsc"
+"..\..\..\Epoc32\Data\Week35.RSC" - "c:\private\2002AA26\Week35.rsc"
+"..\..\..\Epoc32\Data\Week36.RSC" - "c:\private\2002AA26\Week36.rsc"
+"..\..\..\Epoc32\Data\Week37.RSC" - "c:\private\2002AA26\Week37.rsc"
+"..\..\..\Epoc32\Data\Week38.RSC" - "c:\private\2002AA26\Week38.rsc"
+

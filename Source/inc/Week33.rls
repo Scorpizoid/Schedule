@@ -1,0 +1,43 @@
+/*
+* ==============================================================================
+*  Name        : schedule.rls
+*  Part of     : Browser Engine
+*  Interface   : Browser Control API
+*  Description : This is a localisation file for Schedule
+*  Version     :
+*
+*  Copyright (c) 2005-2006 Nokia Corporation.
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  Nokia Corporation.
+* ==============================================================================
+*/
+
+//  LOCALISATION STRINGS
+
+rls_string STRING_lyhyt_teksti_maanantai1 "KEMI5190"
+rls_string STRING_pitka_teksti_maanantai1 "KEMI5190 Kemian aineopintojen harjoitustyöt, luento"
+rls_string STRING_paikka_maanantai1 "ARC1"
+
+rls_string STRING_lyhyt_teksti_maanantai2 "KIRU2322"
+rls_string STRING_pitka_teksti_maanantai2 "KIRU2322/KIRU2342 Ruotsin kielen integroitu kurssi, luento"
+rls_string STRING_paikka_maanantai2 "Huone 302, Juslenia"
+
+rls_string STRING_lyhyt_teksti_maanantai3 "Kolme"
+rls_string STRING_pitka_teksti_maanantai3 "3"
+rls_string STRING_paikka_maanantai3 "3"
+
+rls_string STRING_lyhyt_teksti_maanantai4 "4"
+rls_string STRING_pitka_teksti_maanantai4 "4"
+rls_string STRING_paikka_maanantai4 "4"
+
+rls_string STRING_lyhyt_teksti_maanantai5 "5"
+rls_string STRING_pitka_teksti_maanantai5 "5"
+rls_string STRING_paikka_maanantai5 "5"
+
+rls_string STRING_lyhyt_teksti_maanantai6 "6"
+rls_string STRING_pitka_teksti_maanantai6 "6"
+rls_string STRING_paikka_maanantai6 "6"
+
+// End of File
+
